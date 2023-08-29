@@ -4,15 +4,15 @@ import threading
 
 pygame.init()
 
-# Dimensiones de la pantalla
+
 SCREEN_WIDTH = 400
 SCREEN_HEIGHT = 300
 
-# Colores
+
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
-# Inicialización de la pantalla
+
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Cronómetro")
 
